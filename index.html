@@ -75,6 +75,19 @@
 				<canvas id="canvas" width="1100" height="680"></canvas>
 			</div>
 		</div>
+		<script type="text/javascript">
+		jQuery(function($){
+			$('body').vidbg({
+				'mp4': 'happy_song.mp4',
+				'poster': 'images/happycat2.jpg',
+			}, {
+				// Options
+				muted: true,
+				loop: true,
+				overlay: true,
+			});
+		});
+		</script>
 		<script>
 			(function() {
 				var canvas = $('#canvas');
